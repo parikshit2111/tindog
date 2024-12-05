@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+h1 {
+
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #afafaf;
+}
+
+h2 {
+    size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 5% 10% 8% 10%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ff4c68;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 2%;
+
+}
+
+.download-button:hover {
+    margin: 5% 3% 5% 0;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 2%;
+}
+
+@media (max-width:995px) {
+    .title-img {
+        text-align: center;
+        transform: rotate(0deg);
+    }
+
+}
+
+/* nav-bar */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 2.5rem 0 0;
+}
+
+.navbar {
+    padding: 0 0 3.5rem 0;
+}
+
+.nav-item {
+    color: white;
+
+    padding: 0 10px 0 10px;
+    font-size: 25px;
+}
+
+.title-img {
+    width: 50%;
+    transform: rotate(20deg);
+
+    right: -22%;
+
+
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68
+}
+
+/* testimonials */
+#testimonials {
+    background-color: #ef8172;
+
+    color: white;
+    text-align: center;
+
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 23%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-img {
+    width: 15%;
+    margin: 3% 2% 3%;
+}
+
+#pricing {
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 5%;
+}
+
+.btn-signup {
+    padding: 0 50% 0 50%;
+}
+
+
+
+#cta {
+    background-color: #ff4c68;
+    padding: 2% 15%;
+    text-align: center;
+    color: white;
+
+}
+
+#footer {
+    padding: 1% 15%;
+    text-align: center;
+
+}
+
+.social-icon {
+    margin: 1%;
+}
